@@ -7,7 +7,7 @@
 ## Features
 
 - Detects the currently active network connection (Wi-Fi or Ethernet).  
-- Set default custom DNS (`178.22.122.100`, `185.51.200.2`).  
+- Set default custom DNS (`Shecan DNS`).  
 - Enter your own DNS addresses manually.  
 - Restore automatic DNS configuration.  
 - Simple interactive menu for easy usage.  
@@ -54,7 +54,7 @@ You will see an interactive menu:
 ```vbnet
 ---------------------------
 Active connection: <your-network>
-1) Set default custom DNS (An Irannian DNS)
+1) Set default custom DNS (An Iranian DNS)
 2) Enter custom DNS manually
 3) Restore automatic DNS
 4) Exit
