@@ -47,7 +47,7 @@ chmod +x flex.sh
 
 Run the script:
 ```bash
-./dns-menu.sh
+./flex.sh
 ```
 You will see an interactive menu:
 
