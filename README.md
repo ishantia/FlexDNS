@@ -61,13 +61,13 @@ Active connection: <your-network>
 ---------------------------
 Select an option: 
 ```
-Option 1: Applies the default custom DNS.
+- Option 1: Applies the default custom DNS.
 
-Option 2: Allows you to type your own DNS addresses (separated by spaces).
+- Option 2: Allows you to type your own DNS addresses (separated by spaces).
 
-Option 3: Restores DNS to automatic (DHCP).
+- Option 3: Restores DNS to automatic (DHCP).
 
-Option 4: Exit the program.
+- Option 4: Exit the program.
 
 ## Notes
 

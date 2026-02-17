@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Default DNS
 DNS1="178.22.122.100"
 DNS2="185.51.200.2"
 
-# Get active connection (Wi-Fi or Ethernet)
 ACTIVE_CONN=$(nmcli -t -f NAME,DEVICE connection show --active | while IFS=: read -r name dev; do
     if nmcli device status | grep -q "^$dev.*connected"; then
         echo "$name"
