@@ -54,7 +54,7 @@ You will see an interactive menu:
 ```vbnet
 ---------------------------
 Active connection: <your-network>
-1) Set default custom DNS (178.22.122.100 185.51.200.2)
+1) Set default custom DNS (An Irannian DNS)
 2) Enter custom DNS manually
 3) Restore automatic DNS
 4) Exit
