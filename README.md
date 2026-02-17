@@ -34,10 +34,12 @@ git clone https://github.com/ishantia/FlexDNS
 2. Go into the project directory:
 ```bash
 cd FlexDNS
+```
 
 3. Make the script executable:
 ```bash
 chmod +x dns.sh
+```
 
 ---
 
@@ -46,3 +48,49 @@ chmod +x dns.sh
 Run the script:
 ```bash
 ./dns-menu.sh
+```
+You will see an interactive menu:
+
+```vbnet
+---------------------------
+Active connection: <your-network>
+1) Set default custom DNS (178.22.122.100 185.51.200.2)
+2) Enter custom DNS manually
+3) Restore automatic DNS
+4) Exit
+---------------------------
+Select an option: 
+```
+Option 1: Applies the default custom DNS.
+
+Option 2: Allows you to type your own DNS addresses (separated by spaces).
+
+Option 3: Restores DNS to automatic (DHCP).
+
+Option 4: Exit the program.
+
+## Notes
+
+The script only works if there is an active network connection.
+
+Applies DNS changes immediately; no full network restart required.
+
+Compatible with both Wi-Fi and Ethernet connections.
+
+Designed for Linux distributions using NetworkManager (Ubuntu, Fedora, Arch, etc.).
+
+## Contribution
+
+Contributions are welcome! You can:
+
+Add more network management options.
+
+Improve DNS detection for edge cases.
+
+Add support for multiple simultaneous connections.
+
+Feel free to fork the repository, make changes, and submit a pull request.
+
+## License
+
+This project is released under the MIT License.
