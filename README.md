@@ -29,6 +29,7 @@
 
 ```bash
 git clone https://github.com/ishantia/FlexDNS
+```
 
 2. Go into the project directory:
 ```bash
