@@ -38,7 +38,7 @@ cd FlexDNS
 
 3. Make the script executable:
 ```bash
-chmod +x dns.sh
+chmod +x flex.sh
 ```
 
 ---
