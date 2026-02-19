@@ -52,7 +52,6 @@ Run the script:
 You will see an interactive menu:
 
 ```vbnet
----------------------------
 Active connection: <your-network>
 Current DNS: <your-DNS>
 ---------------------------
