@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Default DNS
 DNS1="178.22.122.100"
 DNS2="185.51.200.2"
 
@@ -16,9 +17,16 @@ if [ -z "$ACTIVE_CONN" ]; then
 fi
 
 while true; do
+    CURRENT_DNS=$(nmcli connection show "$ACTIVE_CONN" | grep '^ipv4.dns:' | awk '{print $2}')
+    if [ -z "$CURRENT_DNS" ]; then
+        CURRENT_DNS="(automatic / DHCP)"
+    fi
+
     echo "---------------------------"
     echo "Active connection: $ACTIVE_CONN"
-    echo "1) Set default custom DNS (Shecan-DNS)"
+    echo "Current DNS: $CURRENT_DNS"
+    echo "---------------------------"
+    echo "1) Set default custom DNS (ُShecan-DNS)"
     echo "2) Enter custom DNS manually"
     echo "3) Restore automatic DNS"
     echo "4) Exit"
